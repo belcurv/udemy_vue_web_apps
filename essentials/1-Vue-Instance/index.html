@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Vue Instance</title>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="http://davidtkatz.com/public_css/vue.css">
+</head>
+<body>
+    
+    <div id="app">Text: {{text}}</div>
+    
+    <script>
+        var app = new Vue({
+            el   : '#app',
+            data : {
+                text : 'Hello, Vue'
+            }
+        });
+    </script>
+    
+</body>
+</html>

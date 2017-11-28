@@ -1,0 +1,19 @@
+{
+  "name": "udemy-vue-web-apps",
+  "version": "1.0.0",
+  "description": "Notes and projects for Udemy Vue course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/belcurv/udemy_vue_web_apps.git"
+  },
+  "author": "JRS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belcurv/udemy_vue_web_apps/issues"
+  },
+  "homepage": "https://github.com/belcurv/udemy_vue_web_apps#readme"
+}

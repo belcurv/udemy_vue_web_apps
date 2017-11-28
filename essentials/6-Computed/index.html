@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>V-Model and Computed Properties</title>
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="http://davidtkatz.com/public_css/vue.css">
+</head>
+<body>
+    
+    <div id="app">
+        <span>Change the text</span>
+        <input v-model="text" type="text" placeholder="text...">
+        <div>Lowercased: {{lowerText}}</div>
+    </div>
+    
+    <script>
+        
+        // instance
+        var app = new Vue({
+            el   : '#app',
+            data: {
+                text: ''
+            },
+            computed: {
+                lowerText() {
+                    return this.text.toLowerCase()
+                }
+            }
+        });
+        
+    </script>
+    
+</body>
+</html>
